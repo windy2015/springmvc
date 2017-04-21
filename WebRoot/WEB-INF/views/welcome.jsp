@@ -22,11 +22,7 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
   
   
   <body>
-     ${Info}
-     <form action="checkLogin.do" method="post">
-              请输入用户名:<input type="text" name="user_id"><br/>
-              请输入密码：<input type="password" name="password"><br>
-     <input type="submit" value="登录">   <input type="reset" value="重置">       
-     </form>  
+     登录成功<br/>
+     欢迎光临
   </body>
 </html>
