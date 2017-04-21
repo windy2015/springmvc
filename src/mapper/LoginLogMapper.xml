@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.liuxch.dao.mapper.LoginLogMapper">
+ 
+   <insert id="insertLoginLog" parameterType="com.liuxch.modal.LoginLog">
+		insert into t_login_log(
+			user_id,
+			ip,
+			login_time
+		) 
+		values(
+			#{userId},
+			#{ip},
+			#{loginTime}
+		)
+	</insert>
+	
+</mapper>
