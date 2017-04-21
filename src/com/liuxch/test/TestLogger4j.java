@@ -3,7 +3,7 @@ package com.liuxch.test;
 import org.apache.log4j.Logger;
 
 /***
- * Log4j²âÊÔÊ¹ÓÃ
+ * Log4jç®€å•ä½¿ç”¨ç¤ºä¾‹
  * @author landingbj
  *
  */
